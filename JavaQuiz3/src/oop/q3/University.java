@@ -13,12 +13,6 @@ public class University {
         students.remove(s);
     }
 
-    public void printStudents() {
-        for (Student s : students) {
-            System.out.println(s.name + " " + s.surname + " from " + s.country);
-        }
-    }
-
     public String getStudentInfoStrange(Student s) {
         String myName = "Giorgi";
         String mySurname = "Maisuradze";
